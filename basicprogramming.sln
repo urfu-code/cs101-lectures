@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture02", "Lecture02\Lecture02.csproj", "{1D026374-F0CE-4488-90CE-E69E86BAF62B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture02 - Рефакторинг", "Lecture02\Lecture02 - Рефакторинг.csproj", "{1D026374-F0CE-4488-90CE-E69E86BAF62B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture01", "Lecture01\Lecture01.csproj", "{81E06B4F-4CEB-41F9-9563-DB911145FDAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture01 - Переменные, типы и методы", "Lecture01\Lecture01 - Переменные, типы и методы.csproj", "{81E06B4F-4CEB-41F9-9563-DB911145FDAC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture03", "Lecture03\Lecture03.csproj", "{791E3C76-858C-4346-A028-22548C8397C8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +21,10 @@ Global
 		{81E06B4F-4CEB-41F9-9563-DB911145FDAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81E06B4F-4CEB-41F9-9563-DB911145FDAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81E06B4F-4CEB-41F9-9563-DB911145FDAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{791E3C76-858C-4346-A028-22548C8397C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{791E3C76-858C-4346-A028-22548C8397C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{791E3C76-858C-4346-A028-22548C8397C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{791E3C76-858C-4346-A028-22548C8397C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
