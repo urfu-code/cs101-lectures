@@ -41,11 +41,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Slide04 - Логические выражения.cs" />
-    <Compile Include="Slide03 - Логические переменные и сравнения.cs" />
-    <Compile Include="Slide02 - Деление и остаток.cs" />
+    <Compile Include="S06 - if return.cs" />
+    <Compile Include="S01 - Сокращенные операции.cs" />
+    <Compile Include="S02 - Деление и остаток.cs" />
+    <Compile Include="S03 - Логические переменные и сравнения.cs" />
+    <Compile Include="S04 - Логические выражения.cs" />
+    <Compile Include="S05 - Оператор if.cs" />
     <Compile Include="Template.cs" />
-    <Compile Include="Slide01 - Сокращенные операции.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
