@@ -5,7 +5,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture02 - Рефакто�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture01 - Переменные, типы и методы", "Lecture01\Lecture01 - Переменные, типы и методы.csproj", "{81E06B4F-4CEB-41F9-9563-DB911145FDAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture03", "Lecture03\Lecture03.csproj", "{791E3C76-858C-4346-A028-22548C8397C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture03 - Выражения и ветвления", "Lecture03\Lecture03 - Выражения и ветвления.csproj", "{791E3C76-858C-4346-A028-22548C8397C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture04 - Циклы", "Lecture04\Lecture04 - Циклы.csproj", "{24851733-5792-401C-BC6E-44242E096AAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture05 - Enum", "Lecture05\Lecture05 - Enum.csproj", "{6E11063B-891C-4256-A18D-3FF0E6B6B014}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture06 - массивы и память", "Lecture06\Lecture06 - массивы и память.csproj", "{75B95FF1-9247-4077-81EB-E0D0289B7370}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +31,18 @@ Global
 		{791E3C76-858C-4346-A028-22548C8397C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{791E3C76-858C-4346-A028-22548C8397C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{791E3C76-858C-4346-A028-22548C8397C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24851733-5792-401C-BC6E-44242E096AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24851733-5792-401C-BC6E-44242E096AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24851733-5792-401C-BC6E-44242E096AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24851733-5792-401C-BC6E-44242E096AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E11063B-891C-4256-A18D-3FF0E6B6B014}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E11063B-891C-4256-A18D-3FF0E6B6B014}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E11063B-891C-4256-A18D-3FF0E6B6B014}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E11063B-891C-4256-A18D-3FF0E6B6B014}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75B95FF1-9247-4077-81EB-E0D0289B7370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75B95FF1-9247-4077-81EB-E0D0289B7370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75B95FF1-9247-4077-81EB-E0D0289B7370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75B95FF1-9247-4077-81EB-E0D0289B7370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
