@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture06 - массивы 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture07 - сортировка и поиск", "Lecture07\Lecture07 - сортировка и поиск.csproj", "{01B01BD1-52A6-454B-925A-29A05190B680}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture08 - строки и файлы", "Lecture08\Lecture08 - строки и файлы.csproj", "{DA0E5C39-B848-4C72-AA4C-991DB2A9C756}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{01B01BD1-52A6-454B-925A-29A05190B680}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01B01BD1-52A6-454B-925A-29A05190B680}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01B01BD1-52A6-454B-925A-29A05190B680}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA0E5C39-B848-4C72-AA4C-991DB2A9C756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA0E5C39-B848-4C72-AA4C-991DB2A9C756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA0E5C39-B848-4C72-AA4C-991DB2A9C756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA0E5C39-B848-4C72-AA4C-991DB2A9C756}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
