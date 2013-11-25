@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EquationTester", "Lecture09
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Lecture09\TestProject\TestProject.csproj", "{818F6BFF-622C-469E-B0DD-8025A230598E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture10 - классы, объекты и память", "Lecture10\Lecture10 - классы, объекты и память.csproj", "{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{818F6BFF-622C-469E-B0DD-8025A230598E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{818F6BFF-622C-469E-B0DD-8025A230598E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{818F6BFF-622C-469E-B0DD-8025A230598E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
