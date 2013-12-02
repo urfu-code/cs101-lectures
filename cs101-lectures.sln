@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject", "Lecture09\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture10 - классы, объекты и память", "Lecture10\Lecture10 - классы, объекты и память.csproj", "{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture11 - свойства, генерики, коллекции", "Lecture11\Lecture11 - свойства, генерики, коллекции.csproj", "{ADD23566-D5DC-4930-8159-7CF8F1B96773}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A5942E5-6BB4-467A-8355-1EC3727AE2CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD23566-D5DC-4930-8159-7CF8F1B96773}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD23566-D5DC-4930-8159-7CF8F1B96773}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD23566-D5DC-4930-8159-7CF8F1B96773}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD23566-D5DC-4930-8159-7CF8F1B96773}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
