@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ADD23566-D5DC-4930-8159-7CF8F1B96773}</ProjectGuid>
+    <ProjectGuid>{5B888177-AFFC-4CA9-BC54-B0BD7EA9E4B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Lecture11</RootNamespace>
-    <AssemblyName>Lecture11</AssemblyName>
+    <RootNamespace>Lecture12</RootNamespace>
+    <AssemblyName>Lecture12</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -41,23 +41,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="S16 - yield return.cs" />
-    <Compile Include="S14 - foreach, IEnumerable, IEnumerator.cs" />
-    <Compile Include="S13 - требование интерфейса.cs" />
-    <Compile Include="S11 - Tuple.cs" />
-    <Compile Include="S10 - Dictionary.cs" />
-    <Compile Include="S09 - List.cs" />
-    <Compile Include="S08 - ArrayList.cs" />
-    <Compile Include="S07 - ArrayList.cs" />
-    <Compile Include="S06 - свойства.cs" />
-    <Compile Include="S05 - свойства.cs" />
-    <Compile Include="S04 - геттер.cs" />
-    <Compile Include="S03 - private.cs" />
-    <Compile Include="S02 - сеттер.cs" />
-    <Compile Include="S01 - ошибка целостности.cs" />
+    <Compile Include="L1S08 - Замыкание.cs" />
+    <Compile Include="L1S01 - Делегаты.cs" />
+    <Compile Include="L1S02 - Сокращение записи.cs" />
+    <Compile Include="L1S03 - Использование готовых генерик-объявлений.cs" />
+    <Compile Include="L1S04 - Анонимный делегат.cs" />
+    <Compile Include="L1S05 - Лямбда-выражение.cs" />
+    <Compile Include="L1S06 - Определение типа лямбды.cs" />
+    <Compile Include="L1S07 - Замыкание.cs" />
+    <Compile Include="L1S09.cs" />
+    <Compile Include="L1S10.cs" />
+    <Compile Include="L1S11.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="S12 - создание генерик класса.cs" />
-    <Compile Include="S15 - yield return.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
