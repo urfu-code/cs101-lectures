@@ -41,17 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="L1S08 - Замыкание.cs" />
-    <Compile Include="L1S01 - Делегаты.cs" />
-    <Compile Include="L1S02 - Сокращение записи.cs" />
-    <Compile Include="L1S03 - Использование готовых генерик-объявлений.cs" />
-    <Compile Include="L1S04 - Анонимный делегат.cs" />
-    <Compile Include="L1S05 - Лямбда-выражение.cs" />
-    <Compile Include="L1S06 - Определение типа лямбды.cs" />
-    <Compile Include="L1S07 - Замыкание.cs" />
-    <Compile Include="L1S09.cs" />
-    <Compile Include="L1S10.cs" />
-    <Compile Include="L1S11.cs" />
+    <Compile Include="S08 - Замыкание.cs" />
+    <Compile Include="S01 - Делегаты.cs" />
+    <Compile Include="S02 - Сокращение записи.cs" />
+    <Compile Include="S03 - Использование готовых генерик-объявлений.cs" />
+    <Compile Include="S04 - Анонимный делегат.cs" />
+    <Compile Include="S05 - Лямбда-выражение.cs" />
+    <Compile Include="S06 - Определение типа лямбды.cs" />
+    <Compile Include="S07 - Замыкание.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,12 +1,15 @@
 ﻿using System.Collections.Generic;
 using System;
-namespace L1S03
+namespace L1S01
 {
+    //Здесь мы объявляем делегат: тип указателя на методы, имеющих следующую сигнатуру:
+    //Они принимают две строки и возвращают число
+    public delegate int StringComparer(string arg1, string arg2);
+
     public class Program
     {
-        public static void SortAndPrint(
-            List<string> array, 
-            Func<string,string,int> comparer)
+        //В этот метод передается comparer - ссылка на метод, который будет производить сравнение элементов
+        public static void SortAndPrint(List<string> array, StringComparer comparer)
         {
             for (int i = 0; i < array.Count; i++)
                 for (int j = 0; j < array.Count; j++)
@@ -34,12 +37,8 @@ namespace L1S03
         public static void MainX()
         {
             var list = new List<string> { "AAA", "ABC", "AA", "B" };
-            SortAndPrint(list, LengthComparer);
-            SortAndPrint(list, AlphabeticComparer);
+            SortAndPrint(list, new StringComparer(LengthComparer));
+            SortAndPrint(list, new StringComparer(AlphabeticComparer));
         }
     }
 }
-//!Убираем декларацию делегатов: заготовлены генерик-декларации на все случаи жизни
-	
-	
-	

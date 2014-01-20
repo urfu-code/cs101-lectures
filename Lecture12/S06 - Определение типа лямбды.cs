@@ -4,6 +4,7 @@ namespace L1S06
 {
     public class Program
     {
+        //Здесь мы сделали генерик-метод, который будет сортировать массив всего чего угодно
         public static void SortAndPrint<T>
             (List<T> array, 
             Func<T,T,int> comparer)
@@ -24,12 +25,12 @@ namespace L1S06
         public static void MainX()
         {
             var list = new List<string> { "AAA", "ABC", "AA", "B" };
+            //Обратите внимание, что тип s1 зависит от того, какая коллекция передана в метод SortAndPrint
             SortAndPrint(list, (s1, s2) => s1.Length.CompareTo(s2.Length));
-            SortAndPrint(list, (s1, s2) => s1.CompareTo(s2));
+
+            var list1 = new List<int> { 1, 4, 2, 3 };
+            SortAndPrint(list1, (s1, s2) => s1.CompareTo(s2));
         }
     }
 }
-//Далем для красоты генерик метод
-	
-	
 	

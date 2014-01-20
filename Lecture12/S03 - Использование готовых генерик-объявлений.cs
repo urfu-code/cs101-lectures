@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
 using System;
-namespace L1S01
+namespace L1S03
 {
-    public delegate int StringComparer(string arg1, string arg2);
-
     public class Program
     {
-        public static void SortAndPrint(List<string> array, StringComparer comparer)
+        //Здесь мы используем системный генерик-делегат Func вместо объявления собственного
+        //Объявление Func<T1,T2,TOut> означает метод, принимающий T1, T2 в качестве аргументов и возвращающий TOut
+        public static void SortAndPrint(
+            List<string> array, 
+            Func<string,string,int> comparer)
         {
             for (int i = 0; i < array.Count; i++)
                 for (int j = 0; j < array.Count; j++)
@@ -34,12 +36,12 @@ namespace L1S01
         public static void MainX()
         {
             var list = new List<string> { "AAA", "ABC", "AA", "B" };
-            SortAndPrint(list, new StringComparer(LengthComparer));
-            SortAndPrint(list, new StringComparer(AlphabeticComparer));
+            SortAndPrint(list, LengthComparer);
+            SortAndPrint(list, AlphabeticComparer);
         }
     }
 }
+//!Убираем декларацию делегатов: заготовлены генерик-декларации на все случаи жизни
 	
-//!Делегаты - самый полный пример
 	
 	

@@ -4,6 +4,8 @@ namespace Lecture12
 {
     public static class L1S09
     {
+
+        //Так мы определяем генерик-метод Where, который будет фильтровать коллекцию в соответствие с переданным условием
         public static IEnumerable<T> Where<T>(
             IEnumerable<T> array,
             Func<T, bool> predicate)

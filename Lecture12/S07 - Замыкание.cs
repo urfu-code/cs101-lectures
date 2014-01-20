@@ -4,7 +4,7 @@ namespace L1S07
 {
     public class Program
     {
-        public static void SortAndPrint<T>(List<T> array, Func<T,T,int> comparer)
+        public static void SortAndPrint<T>(List<T> array, Func<T, T, int> comparer)
         {
             for (int i = 0; i < array.Count; i++)
                 for (int j = 0; j < array.Count; j++)
@@ -22,16 +22,17 @@ namespace L1S07
         public static void MainX()
         {
             var list = new List<string> { "AAA", "ABC", "AA", "B" };
-			bool alphabeticOrder=true;
-            SortAndPrint(list, 
-			    (s1, s2) => 
-                    alphabeticOrder?
-                    s1.CompareTo(s2):
+            bool alphabeticOrder = true;
+            //Здесь мы используем локальную переменную внутри лямбда-выражения
+            //Это называется замыканием
+            SortAndPrint(list,
+                (s1, s2) =>
+                    alphabeticOrder ?
+                    s1.CompareTo(s2) :
                     s1.Length.CompareTo(s2.Length));
         }
     }
 }
-//!Замыкание - использование локальной переменной внутри лямбды
 	
 	
 	

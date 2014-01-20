@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System;
-namespace L1S04
+namespace L1S05
 {
     public class Program
     {
@@ -24,23 +24,16 @@ namespace L1S04
         public static void MainX()
         {
             var list = new List<string> { "AAA", "ABC", "AA", "B" };
-
-            SortAndPrint(list,
-                delegate(string s1, string s2)
-                {
-                   // return "A";
-                    return s1.Length.CompareTo(s2.Length);
-                });
             
-            SortAndPrint(list,
-                delegate(string s1, string s2)
-                {
-                    return s1.CompareTo(s2);
-                });
+            //лямбда-выражение - это просто другой способ записать анонимный метод
+            SortAndPrint(list, 
+                (s1, s2) => s1.Length.CompareTo(s2.Length));
+            SortAndPrint(list, 
+                (s1, s2) => 
+                    {
+                        return s1.CompareTo(s2);
+                    });
         }
     }
 }
-//!Анонимный делегат: прописываем функцию по месту использования
-	
-	
 	

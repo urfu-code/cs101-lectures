@@ -36,12 +36,11 @@ namespace L1S02
           
             StringComparer c = LengthComparer;
             var list = new List<string> { "AAA", "ABC", "AA", "B" };
+            //Здесь мы не создаем объекта делегата явно: поскольку мы пишем название метода без скобок,
+            //компилятор догадывается, что нужно создать делегат
             SortAndPrint(list, LengthComparer);
             SortAndPrint(list, AlphabeticComparer);
         }
     }
 }
-	
-//!Не нужно создавать делегат явно: компилятор сам все поймет
-	
 	

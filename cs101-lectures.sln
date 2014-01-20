@@ -29,7 +29,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture10 - классы, �
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture11 - свойства, генерики, коллекции", "Lecture11\Lecture11 - свойства, генерики, коллекции.csproj", "{ADD23566-D5DC-4930-8159-7CF8F1B96773}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture12 - делегаты и LINQ", "Lecture12\Lecture12 - делегаты и LINQ.csproj", "{5B888177-AFFC-4CA9-BC54-B0BD7EA9E4B4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture12 - делегаты", "Lecture12\Lecture12 - делегаты.csproj", "{5B888177-AFFC-4CA9-BC54-B0BD7EA9E4B4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lecture13 - LINQ", "Lecture13\Lecture13 - LINQ.csproj", "{AF1B2AF6-5412-416B-9CDF-A735E6432E75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{5B888177-AFFC-4CA9-BC54-B0BD7EA9E4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B888177-AFFC-4CA9-BC54-B0BD7EA9E4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B888177-AFFC-4CA9-BC54-B0BD7EA9E4B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF1B2AF6-5412-416B-9CDF-A735E6432E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF1B2AF6-5412-416B-9CDF-A735E6432E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF1B2AF6-5412-416B-9CDF-A735E6432E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF1B2AF6-5412-416B-9CDF-A735E6432E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System;
-namespace L1S05
+namespace L1S04
 {
     public class Program
     {
@@ -24,16 +24,24 @@ namespace L1S05
         public static void MainX()
         {
             var list = new List<string> { "AAA", "ABC", "AA", "B" };
-            SortAndPrint(list, 
-                (s1, s2) => s1.Length.CompareTo(s2.Length));
-            SortAndPrint(list, 
-                (s1, s2) => 
-                    {
-                        return s1.CompareTo(s2);
-                    });
+
+            //Здесь мы объявляем метод по месту использования
+            //Компилятор сам создаст метод anonimous_method_1 с соответствующим телом
+            SortAndPrint(list,
+                delegate(string s1, string s2)
+                {
+                    return s1.Length.CompareTo(s2.Length);
+                });
+            
+            SortAndPrint(list,
+                delegate(string s1, string s2)
+                {
+                    return s1.CompareTo(s2);
+                });
         }
     }
 }
+//!Анонимный делегат: прописываем функцию по месту использования
 	
-//! Лямбда
+	
 	
