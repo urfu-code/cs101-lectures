@@ -29,7 +29,7 @@ namespace Lecture01
         static IEnumerable<bool[]> Combinations1(int N, int K)
         {
             var combination = new bool[N];
-            for (int i = N - K-1; i < N; i++) combination[i] = true;
+            for (int i = N - K; i < N; i++) combination[i] = true;
 
             while (true)
             {
@@ -38,13 +38,15 @@ namespace Lecture01
                 int ones=0;
                 for (j = N - 1; j >= 1; j--)
                 {
-                    if (combination[j]) ones++;
-                    if (combination[j] & !combination[j - 1])
-                        break;
+                    if (combination[j])
+                    {
+                        if (!combination[j - 1]) break;
+                        ones++;
+                    }
                 }
                 if (j == 0) yield break;
                 combination[j - 1] = true;
-                for (int k = j; k < N - ones - 1; k++)
+                for (int k = j; k < N - ones; k++)
                     combination[k] = false;
                 for (int k = N - ones; k < N; k++)
                     combination[k] = true;
