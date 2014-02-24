@@ -57,7 +57,7 @@ namespace Lecture01
         }
 
 
-        public static void Main()
+        public static void MainX()
         {
 
 
