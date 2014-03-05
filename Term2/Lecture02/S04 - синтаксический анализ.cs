@@ -8,8 +8,9 @@ namespace Lecture2
 {
     class S04
     {
-        public static void Main()
+        public static void MainX()
         {
+            var l = Labirynth.CreateLabirynth();
             var str = "([{()[][]{}}])";
             var stack = new Stack<char>();
             var dict = new Dictionary<char, char>

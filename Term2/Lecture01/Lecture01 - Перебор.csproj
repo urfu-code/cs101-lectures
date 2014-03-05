@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Labitynth.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="S01 - перебор подмножеств.cs" />
     <Compile Include="S02 - битовые операции на enum.cs" />
