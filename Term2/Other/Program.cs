@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Other
+namespace Other1
 {
     static class BoolArrayExtensions
     {
@@ -16,7 +16,7 @@ namespace Other
 
     class Program
     {
-        static void Main(string[] args)
+        static void MainX(string[] args)
         {
             bool[,] field = new bool[4, 4];
             int x=2; int y=3;

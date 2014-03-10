@@ -39,7 +39,7 @@ namespace Other02
 
     class Properties
     {
-        public static void Main()
+        public static void Mainx()
         {
             var stat = new Statistics();
             stat.Total = 10;

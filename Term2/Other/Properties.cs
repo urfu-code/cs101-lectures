@@ -15,7 +15,7 @@ namespace Other
 
     class Properties
     {
-        public static void Main()
+        public static void MaiXn()
         {
             var stat = new Statistics();
             stat.Success = 146;
