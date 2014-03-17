@@ -36,7 +36,7 @@ namespace S03
 
     public class Program
     {
-        public static void Main()
+        public static void MainX()
         {
             var timer = new Timer();
             timer.Interval = 500;
